@@ -58,8 +58,12 @@ src/test/java/lv/bootcamp/shelter/
 After completing tasks 1–7:
 1. Right-click the `test` folder → **Run All Tests with Coverage**
 2. Review which lines are green (covered) vs red (not covered)
-3. Identify at least two untested branches
+3. Identify at least two untested branches:
 4. Decide: would tests for those branches catch real bugs?
+
+My comments:
+- the branch if (age > MAX_REASONABLE_AGE) in AnimalValidator is not tested and by testing it we could catch real bugs.
+- we are not testing the if (animals == null) AnimalSorter methods' branches in the tests.
 
 ## Dependencies
 

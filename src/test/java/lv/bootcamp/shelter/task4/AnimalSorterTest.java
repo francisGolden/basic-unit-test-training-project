@@ -1,7 +1,6 @@
 package lv.bootcamp.shelter.task4;
 
 import lv.bootcamp.shelter.model.Animal;
-import net.bytebuddy.asm.Advice;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -86,7 +85,6 @@ class AnimalSorterTest {
     @Test
     @DisplayName("sortByName: is case-insensitive")
     void shouldSortNamesCaseInsensitively() {
-        // TODO: Create animals with mixed case names (e.g., "zebra", "Alpha")
         Animal bonny = new Animal(
                 "Bonny",
                 "rabbit",
