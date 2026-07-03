@@ -62,7 +62,7 @@ After completing tasks 1–7:
 4. Decide: would tests for those branches catch real bugs?
 
 My comments:
-- the branch if (age > MAX_REASONABLE_AGE) is not tested and by testing it we could catch real bugs.
+- the branch if (age > MAX_REASONABLE_AGE) in AnimalValidator is not tested and by testing it we could catch real bugs.
 - 
 
 ## Dependencies
