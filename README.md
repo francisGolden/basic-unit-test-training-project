@@ -63,7 +63,7 @@ After completing tasks 1–7:
 
 My comments:
 - the branch if (age > MAX_REASONABLE_AGE) in AnimalValidator is not tested and by testing it we could catch real bugs.
-- 
+- we are not testing the if (animals == null) AnimalSorter methods' branches in the tests.
 
 ## Dependencies
 
